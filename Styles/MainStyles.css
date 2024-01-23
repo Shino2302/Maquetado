@@ -1,3 +1,6 @@
+html{
+    font-family: 'Paytone One', sans-serif;
+}
 body {
                 /*degradado del color de fondo, colores a degradar*/
     background: linear-gradient(95deg,#fa3d22, #f6553f);
@@ -13,6 +16,7 @@ body {
     margin-top: -5px;
     color: #f2bca5;
     text-shadow: 2px 2px #444;
+    font-size: 35px;
 }
 #SeccionDeInputs{
     /*Display en forma de celdas*/
@@ -32,17 +36,34 @@ body {
 }
 input{
     background-color: #f2bca5;
+    font-size: 25px;
+    color: #000;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 7px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
 }
 a{
     color: #EEE;
+    text-shadow: 2px 2px #444;
 }
-/*a:hover{
-    
-}*/
+a:active{
+    color: #f2bca5;
+}
 a::after{
     color: #EEE;
 }
 .BotonesDeAccion{
-    border: 4px solid #E81e19;
+    border: 5px solid #E81e19;
     border-radius: 4px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 7px;
+}
+.BotonesDeAccion:active{
+    background-color: #E81e19;
+    color: #EEE;
 }
