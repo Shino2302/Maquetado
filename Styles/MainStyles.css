@@ -1,0 +1,48 @@
+body {
+                /*degradado del color de fondo, colores a degradar*/
+    background: linear-gradient(95deg,#fa3d22, #f6553f);
+}
+#TituloDeBienvenida{
+    text-align: center;
+    color: #f2bca5;
+    text-shadow: 2px 2px #444;
+    text-decoration: underline 3px;
+    font-size: 60px;
+}
+#TituloLogin{
+    margin-top: -5px;
+    color: #f2bca5;
+    text-shadow: 2px 2px #444;
+}
+#SeccionDeInputs{
+    /*Display en forma de celdas*/
+    display: grid;
+    /*Alineación del texto */
+    text-align: center;
+    padding: 10px;
+    /*tamaño del borde, tipo de borde, color del borde*/
+    border: 2px solid #444;
+    /*Radio del borde*/
+    border-radius: 5px;
+    /*parte superior del borede trasparente*/
+    border-top: transparent;
+    border-left: transparent;
+    /*model box y color de la sombra*/
+    box-shadow: 4px 3px #e2bca5;
+}
+input{
+    background-color: #f2bca5;
+}
+a{
+    color: #EEE;
+}
+/*a:hover{
+    
+}*/
+a::after{
+    color: #EEE;
+}
+.BotonesDeAccion{
+    border: 4px solid #E81e19;
+    border-radius: 4px;
+}
